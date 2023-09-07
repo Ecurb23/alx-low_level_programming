@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - main entry point
- * return - returns zero meanig success
+ * Return:  returns zero meanig success
  */
 int main(void)
 {
