@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * main - entry point
+ * _abs - entry point
+ * @i: parameter
  * Return: is always 0
  */
-int _abs(int)
+int _abs(int i)
 {
-	if ( i>= 0)
+	if (i >= 0)
 	{
 		return (i);
 	}
