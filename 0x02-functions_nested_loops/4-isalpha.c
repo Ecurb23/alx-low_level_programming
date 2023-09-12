@@ -1,11 +1,12 @@
 #include "main.h"
 /**
- * main - entry point
+ *_isalpha - checks for alphabetgs
  * Return: is always 0
+ * @c: ascii
  */
 int _isalpha(int c)
 {
-	if ((c >= 97 && c <= 122) || ( c >= 65 && c <= 90))
+	if ((c >= 97 && c <= 122) || (c >= 65 && c <= 90))
 	{
 		return (1);
 	}
