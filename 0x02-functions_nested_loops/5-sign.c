@@ -1,16 +1,17 @@
 #include "main.h"
 /**
- * main - entry point
+ * print_sign - print the sign
+ * @n: the input number as an integer
  * Return: is always 0
  */
 int print_sign(int n)
 {
-	if ( n > 0 )
+	if (n > 0)
 	{
 		_putchar(43);
 		return (1);
 	}
-	else if ( n < 0 )
+	else if (n < 0)
 	{
 		_putchar(45);
 		return (-1);
@@ -20,5 +21,5 @@ int print_sign(int n)
 		_putchar(48);
 		return (0);
 	}
-	_putchar('\n')
-}	
+	_putchar('\n');
+}
