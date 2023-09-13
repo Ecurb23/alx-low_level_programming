@@ -1,14 +1,15 @@
-#inlcude "main.h"
+#include "main.h"
 /**
- *
+ * print_last_digit - hgfhfjgf
+ * @n: hjkljh
  * Return: is always 0
  */
-int print_last_digit(int)
+int print_last_digit(int n)
 {
 	int l;
-	l = n % 10;	
 
-	if ( l < 0)
+	l = n % 10;
+	if (l < 0)
 	{
 		_putchar(-l + 48);
 		return (-l);
